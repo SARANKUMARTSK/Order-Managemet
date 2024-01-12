@@ -1,0 +1,22 @@
+.header{
+    border: 2px solid black;
+    height: auto;
+    width: 100%;  
+    background-color: white;
+
+}
+.header_iconset{
+ margin: 15px;
+}
+.menu_icon_header{
+    text-align: left;
+    padding: 8px;
+    font-size: 25px;
+}
+.menu_icon_header:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+
+}

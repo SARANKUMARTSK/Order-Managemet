@@ -1,0 +1,72 @@
+.sidebar{
+    border: 2px solid black;
+    background-color:black;
+    color: white;
+    height: 100vh;
+    width: 250px;
+    display: block;
+    position: fixed; 
+    z-index: 1;
+}
+
+.menu_cut_icon_sidebar{
+    text-align: left;
+    margin: 8px;
+    padding: 8px;
+    font-size: 20px;
+}
+.menu_cut_icon_sidebar:hover{
+    color: white;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.sidebar_list{
+    list-style: none;   
+    padding: 0px;
+}
+.list{
+    padding: 20px;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    opacity: 0.8;
+    
+}
+.li_icon{
+    font-size: inherit;
+}
+.list:hover{
+    cursor: pointer;
+    border-radius: 8px;
+    opacity: 5;
+}
+
+.logo>span{
+    font-size: 20px;
+    color: white;
+    font-weight:    bolder;
+}
+.logo{
+    text-align: center;
+    margin: 20px;
+}
+.app_icon{
+    color: yellow;
+    font-size: x-large;
+
+}
+.app_icon:hover{
+    transition: transform 300ms ease-in-out;
+    transform: rotate(360deg);
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.sidebar_iconset{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
