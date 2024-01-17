@@ -1,0 +1,23 @@
+.dashboard{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.dashboard_heading{
+    /* margin-left: 25px; */
+    color: white !important;
+    text-align: center;
+    border: 1px solid black ;
+    /* border-radius: 20px; */
+    padding: 5px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMChp--oRHwDGiASGl7_cYPGqSt6vIWz_6mw&usqp=CAU');
+    height: auto;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+

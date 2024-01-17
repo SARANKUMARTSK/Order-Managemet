@@ -1,0 +1,12 @@
+.admin{
+    margin-left: 20px;
+}
+.action_icon{
+    padding: 5px;
+    color: darkslategrey;
+}
+.action_icon:hover{
+    transition: transform 200ms ease-in-out;
+    transform: scale(1.5);
+    color: darkblue;
+}

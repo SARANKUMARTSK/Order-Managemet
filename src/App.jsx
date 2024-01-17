@@ -1,29 +1,22 @@
 import React, { useState } from 'react'
-import Sidebar from './components/Sidebar/Sidebar'
-import Header from './components/Header/Header'
 import Dashboard from './components/Dashboard/Dashboard'
 import Admin from './components/Admin/Admin'
 import Order from './components/Orders/Order'
+import Topbar from './components/Topbar/Topbar'
 import { BrowserRouter , Route , Routes ,Navigate } from 'react-router-dom'
-
-
+import Sidebar from './components/Sidebar/Sidebar'
+import AddProduct from './components/Add-Product/AddProduct'
+export const API_URL = 'https://65a62c9d74cf4207b4ef648d.mockapi.io/product'
 function App() {
-  let [showSidebar , setShowSidebar] = useState(false)
-  let handleSidebarshow = ()=>{
-    setShowSidebar(true);
-  }
-  let handleSidebarHide=()=>{
-    setShowSidebar(false);
-  }
+  
   return <>
   
   <BrowserRouter>
-  {
-    showSidebar && <Sidebar handleSidebarHide={handleSidebarHide}  />
-  }
-    <Header handleSidebarshow={handleSidebarshow}/>
+  <Sidebar/>
+  <Topbar />
+   <AddProduct/>
     <Routes>
-      <Route path='/dashboard' element={<Dashboard handleSidebarHide={handleSidebarHide} />}/>
+      <Route path='/dashboard' element={<Dashboard />}/>
       <Route path='/admin' element={<Admin/>}/>
       <Route path='/order' element={<Order/>}/>
       <Route path='*' element={<Navigate to="/dashboard"/>}/>
