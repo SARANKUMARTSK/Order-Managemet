@@ -34,7 +34,7 @@ getCards();
             <Card.Text>
               {e.description}
             </Card.Text>
-            <Card.Text><h4 className='price'>Rs.{e.price}/Only</h4></Card.Text>
+            <Card.Text style={{fontWeight:"bolder" ,color:"red", textShadow:'1px 1px 1px black', fontSize:'20px'}}>Rs.{e.price}/Only</Card.Text>
             <Button variant="success">Place Order</Button>&nbsp;&nbsp;
             <Button variant="warning">Add To Cart</Button>
           </Card.Body>
