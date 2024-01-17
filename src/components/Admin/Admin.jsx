@@ -32,6 +32,7 @@ return <>
         <th>Items</th>
         <th>Customer Name</th>
         <th>Tracking Code</th>
+        <th>Status</th>
         <th>Actions</th>
       </tr>
     </thead>
@@ -46,6 +47,7 @@ return <>
         <td>{e.item}</td>
         <td>{e.customerName}</td>
         <td>{e.trackingCode}</td>
+        <td>{e.status}</td>
         <td ><FontAwesomeIcon className='action_icon' icon={faFilePen} />&nbsp;&nbsp;&nbsp;&nbsp; <FontAwesomeIcon className='action_icon' icon={faTrashCan} /></td>
       </tr>
      
