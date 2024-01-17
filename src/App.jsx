@@ -14,7 +14,6 @@ function App() {
   <BrowserRouter>
   <Sidebar/>
   <Topbar />
-   <AddProduct/>
     <Routes>
       <Route path='/dashboard' element={<Dashboard />}/>
       <Route path='/admin' element={<Admin/>}/>
